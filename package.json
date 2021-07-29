@@ -2,7 +2,7 @@
   "name": "sass-project",
   "version": "1.0.0",
   "description": "A portfolio site built with node, sass, html, css and javascript.",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
