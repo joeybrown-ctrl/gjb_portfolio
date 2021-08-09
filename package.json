@@ -5,8 +5,7 @@
   "main": "index.html",
   "homepage": "https://joeybrown-ctrl.github.io/gjb_portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o docs/css/ --recursive",
-    "deploy": "gh-pages -d docs"
+    "sass": "node-sass -w scss/ -o docs/css/ --recursive"
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,7 @@
   },
   "dependencies": {
     "gh-pages": "^3.2.3",
+    "heroku": "^7.56.1",
     "node-sass": "^6.0.1",
     "sass": "^1.36.0"
   }
